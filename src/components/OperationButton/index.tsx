@@ -1,11 +1,14 @@
+import { ACTION } from '../../enums/actions';
+
 type Props = {
   operation: string;
+  onClick: any;
 };
 
 const OperationButton = (props: Props) => {
-  const { operation } = props;
+  const { operation, onClick } = props;
 
-  return <button>{operation}</button>;
+  return <button onClick={() => onClick({ type: ACTION.OPERATOR, payload: { operation } })}>{operation}</button>;
 };
 
 export default OperationButton;
