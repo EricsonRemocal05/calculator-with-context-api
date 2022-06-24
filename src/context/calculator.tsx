@@ -12,9 +12,9 @@ type CalculatorAction = {
 };
 
 // const defaultValue = {
-//   currentOperand: '',
+//   current: '',
 //   overwrite: true,
-//   previousOperand: '',
+//   previous: '',
 //   operation: '',
 // };
 
