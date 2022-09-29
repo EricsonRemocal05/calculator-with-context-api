@@ -1,4 +1,4 @@
-# react-js-advanced-diagnostic-exam
+# calculator-with-context-api
 
 **How To Run**
 
